@@ -55,16 +55,16 @@
   background-position: center;
 }
 .tour-card1 {
-  background-image: url("/images/marseille-clanque.jpg");
+  background-image: url("https://github.com/devnacer/Concours-8-Developpement-creatif/blob/main/images/marseille-clanque.jpg");
 }
 .tour-card2 {
-  background-image: url("/images/marseille-3.jpg");
+  background-image: url("https://github.com/devnacer/Concours-8-Developpement-creatif/blob/main/images/marseille-3.jpg");
 }
 .tour-card3 {
-  background-image: url("/images/marseille-4.jpg");
+  background-image: url("https://github.com/devnacer/Concours-8-Developpement-creatif/blob/main/images/marseille-4.jpg");
 }
 .tour-card4 {
-  background-image: url("/images/marseille-6.jpg");
+  background-image: url("https://github.com/devnacer/Concours-8-Developpement-creatif/blob/main/images/marseille-6.jpg");
 }
 
 .infosCard-span {
