@@ -1,0 +1,29 @@
+#engagement-section {
+  background-color: var(--color-secondary);
+  color: var(--color-neutral);
+}
+
+#engagement-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#engagement-section ul {
+  list-style-type: disc;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+#engagement-section li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#engagement-section .cta-button {
+  margin-top: 20px;
+}
+#engagement-section .cta-button:hover {
+  background-color: var(--color-primary);
+}

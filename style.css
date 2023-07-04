@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import "./css/general.css";
+@import "./css/nav.css";
+@import "./css/header.css";
+@import "./css/about.css";
+@import "./css/guided-tours.css";
+@import "./css/engagement.css";
+@import "./css/contact.css";
+
+
+:root {
+  --color-primary: rgb(53, 192, 180); 
+  --color-secondary: rgb(3,39,94); 
+  --color-accent: #FFCC00; 
+  --color-neutral: #ffffff; 
+  --color-shadow: #333333; 
+}
+
+

@@ -1,0 +1,208 @@
+#contact {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  background-image: radial-gradient(
+      circle at 69% 86%,
+      rgba(165, 165, 165, 0.06) 0%,
+      rgba(165, 165, 165, 0.06) 25%,
+      rgba(193, 193, 193, 0.06) 25%,
+      rgba(193, 193, 193, 0.06) 50%,
+      rgba(221, 221, 221, 0.06) 50%,
+      rgba(221, 221, 221, 0.06) 75%,
+      rgba(249, 249, 249, 0.06) 75%,
+      rgba(249, 249, 249, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 49% 76%,
+      rgba(129, 129, 129, 0.06) 0%,
+      rgba(129, 129, 129, 0.06) 25%,
+      rgba(164, 164, 164, 0.06) 25%,
+      rgba(164, 164, 164, 0.06) 50%,
+      rgba(200, 200, 200, 0.06) 50%,
+      rgba(200, 200, 200, 0.06) 75%,
+      rgba(235, 235, 235, 0.06) 75%,
+      rgba(235, 235, 235, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 22% 64%,
+      rgba(173, 173, 173, 0.06) 0%,
+      rgba(173, 173, 173, 0.06) 25%,
+      rgba(119, 119, 119, 0.06) 25%,
+      rgba(119, 119, 119, 0.06) 50%,
+      rgba(64, 64, 64, 0.06) 50%,
+      rgba(64, 64, 64, 0.06) 75%,
+      rgba(10, 10, 10, 0.06) 75%,
+      rgba(10, 10, 10, 0.06) 100%
+    ),
+    linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.contact-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  /* border: 2px solid black; */
+  width: 450px;
+  padding: 20px;
+}
+.contact-card p {
+  line-height: 1.5;
+}
+.contact-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-card li {
+  list-style-type: none;
+  line-height: 1.8;
+}
+.contact-card-span {
+  font-weight: bold;
+}
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* bubbles */
+.bub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 4;
+  bottom: -60px;
+}
+.bub img {
+  width: 30px;
+  animation: bubbles 7s linear infinite;
+}
+
+@keyframes bubbles {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-40vh);
+    opacity: 0;
+  }
+}
+
+.bub img:nth-child(1) {
+  width: 50px;
+  animation: bubbles 7s linear infinite;
+}
+.bub img:nth-child(2) {
+  width: 45px;
+  animation: bubbles 4s linear infinite;
+}
+.bub img:nth-child(3) {
+  width: 55px;
+  animation: bubbles 5s linear infinite;
+}
+.bub img:nth-child(4) {
+  width: 54px;
+  animation: bubbles 3s linear infinite;
+}
+.bub img:nth-child(5) {
+  width: 51px;
+  animation: bubbles 4s linear infinite;
+}
+.bub img:nth-child(6) {
+  width: 57px;
+  animation: bubbles 6s linear infinite;
+}
+.bub img:nth-child(7) {
+  width: 49px;
+  animation: bubbles 5s linear infinite;
+}
+.bub img:nth-child(8) {
+  width: 53px;
+  animation: bubbles 7s linear infinite;
+}
+.bub img:nth-child(9) {
+  width: 50px;
+  animation: bubbles 7s linear infinite;
+}
+.bub img:nth-child(10) {
+  width: 45px;
+  animation: bubbles 4s linear infinite;
+}
+.bub img:nth-child(11) {
+  width: 55px;
+  animation: bubbles 5s linear infinite;
+}
+.bub img:nth-child(12) {
+  width: 54px;
+  animation: bubbles 3s linear infinite;
+}
+.bub img:nth-child(13) {
+  width: 51px;
+  animation: bubbles 4s linear infinite;
+}
+.bub img:nth-child(14) {
+  width: 57px;
+  animation: bubbles 6s linear infinite;
+}
+.bub img:nth-child(15) {
+  width: 49px;
+  animation: bubbles 5s linear infinite;
+}
+.bub img:nth-child(16) {
+  width: 53px;
+  animation: bubbles 7s linear infinite;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
