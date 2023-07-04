@@ -1,0 +1,148 @@
+#guided-tours-section {
+  background-image: linear-gradient(
+      310deg,
+      rgba(131, 131, 131, 0.02) 0%,
+      rgba(131, 131, 131, 0.02) 13%,
+      transparent 13%,
+      transparent 46%,
+      rgba(112, 112, 112, 0.02) 46%,
+      rgba(112, 112, 112, 0.02) 100%
+    ),
+    linear-gradient(
+      21deg,
+      rgba(18, 18, 18, 0.02) 0%,
+      rgba(18, 18, 18, 0.02) 47%,
+      transparent 47%,
+      transparent 82%,
+      rgba(178, 178, 178, 0.02) 82%,
+      rgba(178, 178, 178, 0.02) 100%
+    ),
+    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+
+.tour-card {
+  margin-bottom: 40px;
+  margin-right: 40px;
+  text-align: left;
+  width: 600px;
+  height: 600px;
+  color: var(--color-neutral);
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+  transition: all 0.1s ease;
+}
+
+.infosCard {
+  transform: translateY(520px);
+  background-color: rgba(69, 69, 69, 0.4);
+  padding: 20px;
+}
+
+.tour-card1,
+.tour-card2,
+.tour-card3,
+.tour-card4 {
+  background-size: cover;
+  background-position: center;
+}
+.tour-card1 {
+  background-image: url("/images/marseille-clanque.jpg");
+}
+.tour-card2 {
+  background-image: url("/images/marseille-3.jpg");
+}
+.tour-card3 {
+  background-image: url("/images/marseille-4.jpg");
+}
+.tour-card4 {
+  background-image: url("/images/marseille-6.jpg");
+}
+
+.infosCard-span {
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
+.tour-card h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tour-card p {
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin-bottom: 20px;
+}
+
+.tour-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.tour-card li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.cta-button-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 1px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: var(--color-neutral);
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  z-index: 3;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cta-button-card:hover {
+  background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 650px) {
+  .tour-card {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+  }
+  .tour-card h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .tour-card p {
+    display: none;
+  }
+
+  .tour-card ul {
+    display: none;
+  }
+
+  .tour-card li {
+    display: none;
+  }
+  .cta-button-card {
+    margin-bottom: 50px;
+  }
+}
