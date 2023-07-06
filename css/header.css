@@ -7,6 +7,10 @@ header {
   align-items: center;
   text-align: center;
   color: var(--color-neutral);
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/marseille-12.jpg);
+
 }
 
 .header-content {
