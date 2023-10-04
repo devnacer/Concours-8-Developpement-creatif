@@ -7,7 +7,7 @@ Please note that the responsive design part of the website is still a work in pr
 
 ## Preview
 
-You can explore a live preview of the website [here]([https://example.com](https://devnacer.github.io/Concours-8-Developpement-creatif/)).
+You can explore a live preview of the website [here](https://devnacer.github.io/Concours-8-Developpement-creatif/).
 
 ## Key Features
 
